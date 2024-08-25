@@ -1,0 +1,87 @@
+#root {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+}
+
+main h1, main h3 {
+  text-align: center;
+  margin: 10px auto;
+}
+
+main h1 {
+  font-size: 24px;
+}
+
+main h3 {
+  font-size: 14px;
+}
+
+#score-count-flex {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  width: 90%;
+}
+
+#count-display {
+  font-size: 30px;
+  margin: 0 40px;
+}
+
+#farkle, #done {
+  margin: 10px 5px;
+  width: 75px;
+}
+
+#all-score-buttons {
+  height: 150px;
+}
+
+#singles-buttons button, #farkle, #done {
+  width: 100px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+#all-score-buttons div {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin: 10px auto;
+}
+
+#all-score-buttons button {
+  font-size: 12px;
+  padding: 5px;
+}
+
+#all-score-buttons #threes-buttons button {
+  padding: 10px;
+}
+
+#score-table {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: top;
+}
+
+#add-a-player input {
+  height: 30px;
+  font-size: 16px;
+  margin: auto 10px;
+}
+
+dialog {
+  display: block;
+  font-size: 30px;
+  width: 80vw;
+  padding: 10px;
+  margin: auto;
+}

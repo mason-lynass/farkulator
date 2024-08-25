@@ -38,7 +38,7 @@ main h3 {
 }
 
 #all-score-buttons {
-  height: 150px;
+  height: 220px;
 }
 
 #singles-buttons button, #farkle, #done {
@@ -53,12 +53,13 @@ main h3 {
   justify-content: center;
   align-items: center;
   gap: 5px;
-  margin: 10px auto;
+  margin: 20px auto;
 }
 
 #all-score-buttons button {
   font-size: 12px;
   padding: 5px;
+  height: 40px;
 }
 
 #all-score-buttons #threes-buttons button {
@@ -70,6 +71,11 @@ main h3 {
   flex-flow: row nowrap;
   justify-content: space-around;
   align-items: top;
+  margin: 30px auto;
+}
+
+.one-player-scores h4 {
+  font-size: 14px;
 }
 
 #add-a-player input {

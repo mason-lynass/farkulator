@@ -187,16 +187,12 @@ function App() {
 
       return (
         <div className="one-player-scores" key={index}>
-          <h3>{player.name}</h3>
+          <h4>{player.name}</h4>
           <div>{playerScores}</div>
         </div>
       );
     });
   }
-
-  console.log("playerCounter", playerCounter);
-  console.log(count);
-  console.log(scoreTable);
 
   return (
     <>
